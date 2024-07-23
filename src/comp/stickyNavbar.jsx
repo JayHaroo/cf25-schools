@@ -8,7 +8,7 @@ import {
   Card,
 } from "@material-tailwind/react";
 
-export function StickyNavbar() {
+export function StickyNavbar({logo}) {
   const [openNav, setOpenNav] = React.useState(false);
 
   React.useEffect(() => {
@@ -71,7 +71,7 @@ export function StickyNavbar() {
           href="#"
           className="mr-4 cursor-pointer py-1.5 font-medium"
         >
-          <img src="src\assets\EA_Sports_College_Football_25_logo.png" alt="cf25-logo" className="w-[200px]"/>
+          <img src={logo} alt="cf25-logo" className="w-[200px]"/>
         </Typography>
         <div className="flex items-center gap-4">
           <div className="mr-4 hidden lg:block">{navList}</div>

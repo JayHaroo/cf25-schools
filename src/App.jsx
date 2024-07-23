@@ -4,11 +4,12 @@ import { SimpleCard } from "./comp/cards.jsx";
 import purdue from "./assets/purdue.jpg";
 import unlv from "./assets/unlv.jpg";
 import duke from "./assets/duke.jpg";
+import logo from "./assets/logo.png";
 
 function App() {
   return (
     <div className="bg-black w-screen min-h-screen">
-      <StickyNavbar />
+      <StickyNavbar logo= {logo}/>
       <div className="flex pl-[20px] pr-[20px] justify-between">
         <SimpleCard
           link= {purdue}
