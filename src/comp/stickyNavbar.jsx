@@ -36,8 +36,8 @@ export function StickyNavbar({logo}) {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
-          Account
+        <a href="https://en.wikipedia.org/wiki/EA_Sports_College_Football_25" className="flex items-center">
+          Wiki
         </a>
       </Typography>
       <Typography
@@ -47,7 +47,7 @@ export function StickyNavbar({logo}) {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Blocks
+          Gameplays
         </a>
       </Typography>
       <Typography
@@ -57,7 +57,7 @@ export function StickyNavbar({logo}) {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Docs
+          Guides
         </a>
       </Typography>
     </ul>
