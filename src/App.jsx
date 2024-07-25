@@ -6,6 +6,8 @@ import unlv from "./assets/unlv.jpg";
 import duke from "./assets/duke.jpg";
 import logo from "./assets/logo.png";
 import lsu from "./assets/lsu.jpg";
+import penn from "./assets/penn.jpg";
+import ohio from "./assets/ohio.jpg";
 
 function App() {
   return (
@@ -31,6 +33,18 @@ function App() {
           link={lsu}
           name="LSU Tigers football"
           desc="The LSU Tigers football program, also known as the Fighting Tigers, represents LSU in college football."
+        />
+
+        <SimpleCard
+          link={penn}
+          name="Penn State Nittany Lions football"
+          desc="The Penn State Nittany Lions team represents the Pennsylvania State University in college football."
+        />
+
+        <SimpleCard
+          link={ohio}
+          name="Ohio State Buckeyes football"
+          desc="The Ohio State Buckeyes football team competes as part of the NCAA Division I Football Bowl Subdivision, representing the Ohio State University in the Big Ten Conference."
         />
       </div>
     </div>

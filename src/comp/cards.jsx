@@ -9,8 +9,8 @@ import {
   
   export function SimpleCard({ link, name, desc }) {
     return (
-      <Card className="mt-6 w-96 overflow-hidden">
-        <CardHeader color="blue-gray" className="relative h-56">
+      <Card className="mt-6 w-96 overflow-hidden sm:w-[290px] md:w-[250px] lg:w-96">
+        <CardHeader color="blue-gray" className="relative h-56 flex justify-center items-center">
           <img
             src={link}
             alt="card-image"
