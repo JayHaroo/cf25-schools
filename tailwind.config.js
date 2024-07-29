@@ -5,14 +5,16 @@ module.exports = withMT({
   theme: {
     extend: {},
     screens: {
+      'xsm': '300px',
+
       'sm': '360px',
-      // => @media (min-width: 576px) { ... }
+  
 
       'md': '700px',
-      // => @media (min-width: 960px) { ... }
+
 
       'lg': '900px',
-      // => @media (min-width: 960px) { ... }
+
     },
   },
   plugins: [],
