@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="bg-black w-screen min-h-screen">
       <StickyNavbar logo={logo} />
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-4 p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:md:grid-cols-3 gap-4 p-4">
         <SimpleCard
           link={purdue}
           name="Purdue Boilermakers"
